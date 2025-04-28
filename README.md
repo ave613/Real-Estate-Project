@@ -1,6 +1,6 @@
-# Real Estate Property Listing Website
+# Real Estate Website
 
-A dynamic web application for real estate property listings, built with PHP and MySQL. This platform allows users to browse, search, and express interest in various properties, with features like wishlisting and detailed property views.
+A dynamic web app for real estate property listings. This platform allows users to browse, search, and express interest in various properties, with features like wishlisting and detailed property views.
 
 ## Features
 
