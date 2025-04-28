@@ -1,0 +1,3 @@
+[22-Feb-2025 11:16:15 Europe/Berlin] Mailer Error: SMTP Error: Could not authenticate.
+[22-Feb-2025 12:24:46 Europe/Berlin] Mailer Error: SMTP Error: Could not authenticate.
+[22-Feb-2025 20:18:23 Europe/Berlin] Mailer Error: SMTP Error: Could not authenticate.

@@ -1,0 +1,48 @@
+<?php
+include("includes/header.php");
+include("includes/topbar.php");
+include("includes/sidebar.php");
+include("connect.php");
+
+// Fetch admin details from the database (assuming there's a session or a query to get admin info)
+$query = "SELECT * FROM registered_users WHERE id = 1";
+$result = $conn->query($query);
+$admin = $result->fetch_assoc();
+?>
+
+<div class="content-wrapper">
+    <div class="content-header">
+        <h1>Admin Profile</h1>
+    </div>
+    <div class="content">
+        <form action="update_profile.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <!-- <input type="text" id="name" name="name" value="<?php echo $admin['name']; ?>" required> -->
+                <input type="text" id="name" name="name" value="NextDoor Admin" required>
+
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="<?php echo $admin['email']; ?>" required>
+            </div>
+            <div class="form-group">
+                <label for="current_password">Current Password:</label>
+                <input type="password" id="current_password" name="current_password" required>
+            </div>
+            <div class="form-group">
+                <label for="new_password">New Password:</label>
+                <input type="password" id="new_password" name="new_password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirm New Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+</div>
+
+<?php
+include("includes/footer.php");
+?>

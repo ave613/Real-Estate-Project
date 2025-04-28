@@ -1,0 +1,554 @@
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-220d5349047sm150510715ad.7 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [210.14.102.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-220d5349047sm150510715ad.7 - gsmtp
+
+SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-220d5349047sm150510715ad.7 - gsmtp
+
+SMTP Error: Could not authenticate.
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-220d5349047sm150510715ad.7 - gsmtp
+
+SMTP Error: Could not authenticate.
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2fceb065299sm3155968a91.29 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [210.14.102.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<nextdoor101r@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2fceb065299sm3155968a91.29 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<yuriparkx101@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2fceb065299sm3155968a91.29 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2fceb065299sm3155968a91.29 - gsmtp
+
+CLIENT -> SERVER: Date: Sat, 22 Feb 2025 11:20:33 +0100
+
+CLIENT -> SERVER: To: yuriparkx101@gmail.com
+
+CLIENT -> SERVER: From: Real Estate <nextdoor101r@gmail.com>
+
+CLIENT -> SERVER: Subject: Password Reset Request
+
+CLIENT -> SERVER: Message-ID: <GC1SltTGLHxQovCookzNTcVJpTvkbTTEDE5LguS3xbc@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Click the following link to reset your password: <br><a href='http://localhost/Real%20Estate/MainPage/reset_password.php?token=fdaea553c560d5bf0bf5e012614ee3032c0cefbae22fb124307e0b0e3b10a4f7'>Reset Password</a><br>This link will expire in 1 hour.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1740219637 98e67ed59e1d1-2fceb065299sm3155968a91.29 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2fceb065299sm3155968a91.29 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-220d5364589sm150052745ad.84 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [210.14.102.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-220d5364589sm150052745ad.84 - gsmtp
+
+SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-220d5364589sm150052745ad.84 - gsmtp
+
+SMTP Error: Could not authenticate.
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-220d5364589sm150052745ad.84 - gsmtp
+
+SMTP Error: Could not authenticate.
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7326e02b1a8sm12943602b3a.97 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [210.14.102.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<nextdoor101r@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7326e02b1a8sm12943602b3a.97 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<sugafreekookie7@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7326e02b1a8sm12943602b3a.97 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7326e02b1a8sm12943602b3a.97 - gsmtp
+
+CLIENT -> SERVER: Date: Sat, 22 Feb 2025 12:29:03 +0100
+
+CLIENT -> SERVER: To: sugafreekookie7@gmail.com
+
+CLIENT -> SERVER: From: Real Estate <nextdoor101r@gmail.com>
+
+CLIENT -> SERVER: Subject: Password Reset Request
+
+CLIENT -> SERVER: Message-ID: <Gd4LZjOSuKZ1iMsOTINN7RUdxEe6GWBC4q9XJKtdwXc@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Click the following link to reset your password: <br><a href='http://localhost/Real%20Estate/MainPage/reset_password.php?token=2674308ddaeb677da6fbc338f571e2c66300dff926fdaf81d1e318bffec4e703'>Reset Password</a><br>This link will expire in 1 hour.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1740223746 d2e1a72fcca58-7326e02b1a8sm12943602b3a.97 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7326e02b1a8sm12943602b3a.97 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2fceb02d837sm3287555a91.2 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [210.14.102.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<nextdoor101r@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2fceb02d837sm3287555a91.2 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<sugafreekookie7@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2fceb02d837sm3287555a91.2 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2fceb02d837sm3287555a91.2 - gsmtp
+
+CLIENT -> SERVER: Date: Sat, 22 Feb 2025 12:29:07 +0100
+
+CLIENT -> SERVER: To: sugafreekookie7@gmail.com
+
+CLIENT -> SERVER: From: Real Estate <nextdoor101r@gmail.com>
+
+CLIENT -> SERVER: Subject: Password Reset Request
+
+CLIENT -> SERVER: Message-ID: <Nj2JyRVgxfWmn7zU1ANkHq4MPPWBR0SBwmVQX7nmSdQ@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Click the following link to reset your password: <br><a href='http://localhost/Real%20Estate/MainPage/reset_password.php?token=8319b99abdbf1e40ae788fa60604c5fab10d2712a6edaffe77acf4de296ede37'>Reset Password</a><br>This link will expire in 1 hour.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1740223750 98e67ed59e1d1-2fceb02d837sm3287555a91.2 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2fceb02d837sm3287555a91.2 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2213394d6c8sm100575725ad.181 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [210.14.102.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2213394d6c8sm100575725ad.181 - gsmtp
+
+SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2213394d6c8sm100575725ad.181 - gsmtp
+
+SMTP Error: Could not authenticate.
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2213394d6c8sm100575725ad.181 - gsmtp
+
+SMTP Error: Could not authenticate.
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73251356d78sm16597615b3a.100 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [210.14.102.100]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<nextdoor101r@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73251356d78sm16597615b3a.100 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<phoopyaesone135@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73251356d78sm16597615b3a.100 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73251356d78sm16597615b3a.100 - gsmtp
+
+CLIENT -> SERVER: Date: Sat, 22 Feb 2025 21:01:17 +0100
+
+CLIENT -> SERVER: To: phoopyaesone135@gmail.com
+
+CLIENT -> SERVER: From: Real Estate <nextdoor101r@gmail.com>
+
+CLIENT -> SERVER: Subject: Password Reset Request
+
+CLIENT -> SERVER: Message-ID: <tqnzytabFMvMTGmBjqDqgAis841dcGKE1G35xhfw5aA@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Click the following link to reset your password: <br><a href='http://localhost/Real%20Estate/MainPage/reset_password.php?token=6d341ee12dc8c7809cf24b27226bb0f0ad55357b3f51a4b74e698317f3235d79'>Reset Password</a><br>This link will expire in 1 hour.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1740254484 d2e1a72fcca58-73251356d78sm16597615b3a.100 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73251356d78sm16597615b3a.100 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-734a003ec7esm779704b3a.153 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.228.172.171]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<nextdoor101r@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-734a003ec7esm779704b3a.153 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<phoopyaesone135@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-734a003ec7esm779704b3a.153 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-734a003ec7esm779704b3a.153 - gsmtp
+
+CLIENT -> SERVER: Date: Thu, 27 Feb 2025 08:04:45 +0100
+
+CLIENT -> SERVER: To: phoopyaesone135@gmail.com
+
+CLIENT -> SERVER: From: Real Estate <nextdoor101r@gmail.com>
+
+CLIENT -> SERVER: Subject: Password Reset Request
+
+CLIENT -> SERVER: Message-ID: <VmIaPp9vT3WJM1hAVWP6ClhOeIL9aERle9J6zdTfB4@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Click the following link to reset your password: <br><a href='http://localhost/Real%20Estate/MainPage/reset_password.php?token=50eba8b2514106e6c1fdfc44616d00b11b7a3d90893377a85ed1179c80250591'>Reset Password</a><br>This link will expire in 1 hour.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1740639893 d2e1a72fcca58-734a003ec7esm779704b3a.153 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-734a003ec7esm779704b3a.153 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-734a002474esm775985b3a.86 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [136.228.172.43]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<nextdoor101r@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-734a002474esm775985b3a.86 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<theintnaychik@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-734a002474esm775985b3a.86 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-734a002474esm775985b3a.86 - gsmtp
+
+CLIENT -> SERVER: Date: Thu, 27 Feb 2025 08:07:24 +0100
+
+CLIENT -> SERVER: To: theintnaychik@gmail.com
+
+CLIENT -> SERVER: From: Real Estate <nextdoor101r@gmail.com>
+
+CLIENT -> SERVER: Subject: Password Reset Request
+
+CLIENT -> SERVER: Message-ID: <CHVpVYG3GdKWBuR1WQ54nPyIl4cjCmdPU6qIX2K0@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Click the following link to reset your password: <br><a href='http://localhost/Real%20Estate/MainPage/reset_password.php?token=7e4480f71bd72fda4be319e851ba49be904b4790902a3240aa989b6e64c51a77'>Reset Password</a><br>This link will expire in 1 hour.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1740640053 d2e1a72fcca58-734a002474esm775985b3a.86 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-734a002474esm775985b3a.86 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-736984f99bdsm642991b3a.110 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [103.47.184.148]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<nextdoor101r@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-736984f99bdsm642991b3a.110 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<maythetswecu@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-736984f99bdsm642991b3a.110 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-736984f99bdsm642991b3a.110 - gsmtp
+
+CLIENT -> SERVER: Date: Thu, 6 Mar 2025 08:34:59 +0100
+
+CLIENT -> SERVER: To: maythetswecu@gmail.com
+
+CLIENT -> SERVER: From: Real Estate <nextdoor101r@gmail.com>
+
+CLIENT -> SERVER: Subject: Password Reset Request
+
+CLIENT -> SERVER: Message-ID: <NjwjwfcCsBNJnuOHlB90GmbaiuPp4heHkIyWHH8Bk@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Click the following link to reset your password: <br><a href='http://localhost/Real%20Estate/MainPage/reset_password.php?token=f27e01509863d91738d73ca9c53f89dabed1722c6c418c589244ad9acb08a0cf'>Reset Password</a><br>This link will expire in 1 hour.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1741246504 d2e1a72fcca58-736984f99bdsm642991b3a.110 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-736984f99bdsm642991b3a.110 - gsmtp
+

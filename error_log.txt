@@ -1,0 +1,1 @@
+[22-Feb-2025 11:15:31 Europe/Berlin] PHP Warning:  Undefined array key "REQUEST_METHOD" in C:\xampp\htdocs\Real Estate\MainPage\forgot_password.php on line 17
